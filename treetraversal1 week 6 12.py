@@ -1,25 +1,25 @@
 class Node:
 
-      def __init__(self,info): #constructor of class
+      def __init__(self,info):
 
-         self.info = info  #information for node
-         self.left = None  #left leef
-         self.right = None #right leef
-         self.level = None #level none defined
+         self.info = info  
+         self.left = None
+          self.right=None
+         self.level = None 
 
       def __str__(self):
 
-          return str(self.info) #return as string
+          return str(self.info) 
 
 
 class searchtree:
 
-      def __init__(self): #constructor of class
+      def __init__(self): 
 
           self.root = None
 
 
-      def create(self,val):  #create binary search tree nodes
+      def create(self,val):  
 
           if self.root == None:
 
