@@ -4,9 +4,9 @@ def primeno(num, i):
     elif(num%i==0):
         return 0
     else:
-        return primeno(num,i-1)#1-primeno is the function called inside the function
+        return primeno(num,i-1)
 
-    #2-its recursive function defination 
+     
 
 
 input_no=input('Enter the number')
